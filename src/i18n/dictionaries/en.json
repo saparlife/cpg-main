@@ -1,0 +1,527 @@
+{
+  "header": {
+    "services": "Services",
+    "cases": "Cases",
+    "contacts": "Contacts"
+  },
+  "contact": {
+    "lets": "Let's",
+    "create": "Create",
+    "together": "Together",
+    "name": "Name",
+    "name_placeholder": "My name is Koja",
+    "email": "Email",
+    "service": "Service",
+    "services_placeholder": "Select a service",
+    "message": "Message",
+    "message_placeholder": "Enter your message",
+    "send": "Send",
+    "thank_you": "Thank you for contacting us! We will get back to you shortly."
+  },
+  "services": {
+    "digital": {
+      "name": "Digital",
+      "title": "Digital Marketing",
+      "description": "Full-cycle marketing, brand promotion in social networks, PR and reputation management, advertising campaign launch"
+    },
+    "content": {
+      "name": "Content",
+      "title": "Content",
+      "description": "Creating content of any complexity: from photo and video production to organizing full-fledged media projects"
+    },
+    "events": {
+      "name": "Events",
+      "title": "Events",
+      "description": "Organization of events of any format and scale: from corporate events to large-scale festivals and concerts"
+    }
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "almaty": "Almaty",
+    "astana": "Astana",
+    "astana_address": "Tūran str 59/2, Astana, Kazakhstan",
+    "almaty_address": "Baribayev str 36, Almaty, Kazakhstan",
+    "address": "Address",
+    "office": "Office",
+    "company_name": "«CPG media group»"
+  },
+  "Events": {
+    "Hero": {
+      "top": "projects that speak for themselves",
+      "bottom": "Showreel 2025"
+    },
+    "About": {
+      "title_part1": "We launch emotions",
+      "title_part2": "that work",
+      "title_part3": "for your brand",
+      "years": "10 years",
+      "years_description": "we've been creating events",
+      "years_description_part2": "that people talk about",
+      "events_description": "Forums, festivals, private events - all in one place"
+    },
+    "Features": {
+      "title_what": "WHAT WE",
+      "title_can": "can do?",
+      "description_part1": "Full cycle",
+      "description_part2": "Bright results",
+      "items": [
+        "Large-scale concerts, festivals and cultural events",
+        "International forums and exhibitions",
+        "Educational festivals and bootcamp projects",
+        "Souvenir products and POSM",
+        "Corporate events and teambuildings"
+      ]
+    },
+    "Culture": {
+      "title": "events",
+      "subtitle": "We create large-scale projects that become city legends",
+      "point1_number": "01",
+      "point1_text": "database of top hosts and artists with favorable terms",
+      "point2_number": "02",
+      "point2_text": "coverage from 50 to 10,000 guests",
+      "point3_number": "03",
+      "point3_text": "exclusive access to artists, organizations and cultural institutions",
+      "point4_number": "04",
+      "point4_text": "local flavor - through collaborations with artists, theaters, musicians"
+    },
+    "Forums": {
+      "title": "ATL/BTL:",
+      "description": "We create venues where brands get attention, businesses grow, and society has equal dialogue",
+      "subtitle": "We gather big ideas into impeccable form: concept, production, protocol, PR",
+      "box_title": "forums and exhibitions"
+    },
+    "Teambuildings": {
+      "title": "Corporate events and",
+      "subtitle": "Bright events that",
+      "subtitle_part2": "unite the team",
+      "bullet1": "We work with top directors and decorators throughout Kazakhstan",
+      "bullet2": "We organize everything: from idea to buffet and special effects",
+      "bullet3": "We write scenarios tailored to your company's goals and spirit",
+      "bullet4": "We offer dozens of formats — from quizzes to outdoor adventures"
+    },
+    "Education": {
+      "title": "Educational",
+      "subtitle": "We make education alive,",
+      "subtitle_part2": "large-scale and precisely targeted",
+      "item1": "Bootcamps",
+      "item2": "Workshops",
+      "item3": "Intensives"
+    },
+    "Suvenirs": {
+      "title": "Souvenir products and POSM",
+      "text1": "We have reliable production facilities in Russia, Europe and China!",
+      "text2": "We think through every detail - from design and materials to packaging and presentation."
+    },
+    "Projects": {
+      "title_part1": "Projects",
+      "title_part2": "that speak for themselves",
+      "title_part3": "which",
+      "description": "Events that make it into the news, stories and people's mood"
+    },
+    "Newyear": {
+      "title": "New Year's Corporate Party BI Group",
+      "guests": "1000+ guests",
+      "zones": "3 themed zones",
+      "headliners": "Headliners",
+      "description": "An original scenario that reveals the talents of employees"
+    },
+    "Trust": {
+      "heading": "We are a team that",
+      "heading_part2": "big events trust!",
+      "block1_number": "01",
+      "block1_text": "200+ completed projects - from intimate events to city festivals",
+      "block2_number": "02",
+      "block2_text": "10,000+ forum participants, 100,000+ concert viewers",
+      "block3_number": "03",
+      "block3_text": "We create large-scale installations, bright photo zones and exhibition stands",
+      "block4_number": "04",
+      "block4_text": "We work with top artists and hosts: from Rinat Safargulova to Irina Kairatovna"
+    },
+    "WhyUs": {
+      "title": "WHY",
+      "subtitle": "why",
+      "subtitle_part2": "CHOOSE US?",
+      "description_part1": "We create emotions that work for your brand",
+      "description_part2": "You dream - we make it happen. And your numbers grow!"
+    },
+    "Client1": {
+      "title": "Bridge",
+      "year": "2023",
+      "subtitle": "digital",
+      "subtitle_part2": "bridge",
+      "subtitle_part3": "2023",
+      "description": "Coverage of key global media",
+      "description_part2": "Top journalists from abroad",
+      "description_part3": "Forum - at the center of international agenda"
+    },
+    "Client2": {
+      "title": "Ashyk",
+      "subtitle": "Street Art Festival",
+      "year": "Astana 2024",
+      "description": "We turned Altel's 30th anniversary into a celebration that united the country!",
+      "item1": "Exhibitions",
+      "item2": "Festivals",
+      "item3": "Master classes",
+      "item4": "Brand zones",
+      "item5": "Hundreds of unique guests in each city"
+    },
+    "Client3": {
+      "title": "Agro",
+      "subtitle": "European Union",
+      "subtitle_part2": "in Kazakhstan",
+      "description": "We organized an EU business mission:",
+      "item1": "B2B meetings",
+      "item2": "Business tours",
+      "item3": "Pavilion construction at InterFood Kazakhstan exhibition"
+    },
+    "Client4": {
+      "title": "Central Asian",
+      "count": "+100",
+      "count_description": "participants from all",
+      "count_description_part2": "Central Asian countries",
+      "description": "2 weeks of intensive training",
+      "description_part2": "TOP instructors from USA"
+    },
+    "Client5": {
+      "title": "Bi family",
+      "year": "day 2025",
+      "description": "Corporate event that became a celebration",
+      "description_text": "Festival for shareholders and TOP management with a rich program for the whole family.",
+      "tagline": "Full cycle - from concept to the last guest."
+    },
+    "Client6": {
+      "title": "products",
+      "title_part2": "for Tele2",
+      "description": "Souvenirs as strategy",
+      "description_part2": "Assortment tailored to brand, production from factories in Europe, Russia and China",
+      "description_part3": "30,000 units - on time and to every region"
+    }
+  },
+  "Digital": {
+    "Hero": {
+      "top": "projects that speak for themselves",
+      "bottom": "Showreel 2025"
+    },
+    "About": {
+      "title_main": "DIGITAL",
+      "title_secondary": "FROM which",
+      "title_tertiary": "sales",
+      "title_quaternary": "grow",
+      "tagline": "Less words. More numbers."
+    },
+    "Experience": {
+      "years": "10 years",
+      "in_digital": "in digital",
+      "tagline": "You've seen us.",
+      "tagline_alt": "You just didn't know it was us."
+    },
+    "Provision": {
+      "our": "Our",
+      "offer": "offer",
+      "description": "We create comprehensive digital strategies, integrate SEO, content and targeting so your business grows.",
+      "social_note": "We don't just manage social media."
+    },
+    "Advantages": {
+      "title": "Our",
+      "subtitle": "advantages",
+      "intro": "It's not just creativity for likes. It's comprehensive digital marketing that will increase your sales:",
+      "list": [
+        "New customers through advertising campaigns on social networks and search engines",
+        "Content marketing",
+        "Optimized sales funnels"
+      ],
+      "analytics": "We provide you with end-to-end analytics: you know where your reach, clicks and sales grow, and which tools deliver results"
+    },
+    "Smm": {
+      "title": "SMM",
+      "description": "We manage your brand's digital image:",
+      "list": [
+        "We choose platforms where your exact audience lives;",
+        "We set a recognizable tone of voice;",
+        "We increase engagement and conversions."
+      ],
+      "tagline": "Content shoots. Ads land. Numbers grow.",
+      "tagline_alt": "And it's thanks to us!"
+    },
+    "Target": {
+      "plus": "+",
+      "target": "TARGET",
+      "seo": "SEO",
+      "description_part1": "Your brand will be found. It will be noticed. And chosen.",
+      "description_part2": "SEO + targeting = precise audience targeting and growth without chance.",
+      "description_part3": "(Through a combination of SEO optimization and targeted advertising, your brand becomes visible to your target audience. Maximum reach, precise hit on customer needs)."
+    },
+    "Pr": {
+      "title_part1": "PR promotion",
+      "title_part2": "and reputation",
+      "title_part3": "management",
+      "intro": "We build reputation through media,",
+      "intro_part2": "bloggers and opinion leaders.",
+      "tagline": "Reputation doesn't create itself - we create it!",
+      "description": "People are talking about you. And we control how they talk:",
+      "list": [
+        "We build image and news hooks based on brand strategy",
+        "You're written about in media, business platforms and bloggers talk about you",
+        "We boost first persons: interviews, forums, columns",
+        "We launch PR campaigns and viral special projects",
+        "We work with negativity — fast, clear, without panic"
+      ]
+    },
+    "WeHere": {
+      "title_part1": "If everything's on fire,",
+      "title_part2": "we're here!",
+      "crisis_description": "Scandalous headlines, hate in social networks, leaks in Telegram, panic in the team...",
+      "crisis_question": "Do you think everything is lost?",
+      "crisis_answer": "Spoiler: No!"
+    },
+    "Brand": {
+      "title": "Brand strategy",
+      "subtitle": "for your brand:",
+      "list": [
+        "We monitor mentions in media, social networks, blogs and reviews",
+        "We analyze tone and dynamics - we understand the scale",
+        "We identify sources of negativity and threats to reputation",
+        "We form the official position of the company",
+        "We launch crisis communications through media and social networks",
+        "We publish positive materials - cases, interviews, columns",
+        "We work with reviews, reduce the impact of negativity;",
+        "We push bad mentions out of search results (SERM)."
+      ]
+    },
+    "Info": {
+      "title_part1": "What remains",
+      "title_part2": "after contact",
+      "brand_note_part1": "A brand is when you're not searched for.",
+      "brand_note_part2": "You're already known.",
+      "description": "With CPG MEDIA GROUP you become someone who is chosen immediately."
+    },
+    "Client1": {
+      "name": "Otbasy bank",
+      "investment": "Investment",
+      "value1": "100 million",
+      "attracted": "Attracted funds",
+      "value2": "4 billion",
+      "roi": "ROI",
+      "value3": "x40",
+      "tagline": "Numbers speak better than any promises.",
+      "description": "We didn't just bring reach. We turned it into billions."
+    },
+    "Client2": {
+      "name": "BI GROUP",
+      "tagline": "Over 5 years, we made BI GROUP not just notable - but a benchmark for the entire industry:",
+      "list": [
+        "The first and only blue checkmark on Instagram and Telegram among builders;",
+        "BI GROUP page - a reference for the entire industry;",
+        "Constant growth of ER and engagement;",
+        "Full cycle: strategy, content, community, analytics."
+      ],
+      "message": "A strong image helps sell expensive.",
+      "note": "At BI GROUP this works"
+    },
+    "Client3": {
+      "name": "TELE2, ALTEL",
+      "list": [
+        "Instagram - hundreds of thousands of organic reach per month;",
+        "TikTok - x3 growth in followers and views;",
+        "Telegram - strong channel from scratch, no boosts."
+      ],
+      "description": "But these aren't just likes and followers.",
+      "note": "This is the growth of brand awareness and trust for brands that were always in the shadow. Now - not."
+    },
+    "WhyUs": {
+      "title": "WHY",
+      "subtitle": "choose us?",
+      "metric1_value": "+100,000,000",
+      "metric1_label": "Attracted subscribers",
+      "metric2_value": "+5,000,000",
+      "metric2_label": "Leads for companies",
+      "romi_title": "With us, your ROMI grows from 0 to 1000%",
+      "romi_description": "Your 1₸ investment will bring plus 1500₸ in company income",
+      "tagline": "We turn digital into numbers in your account"
+    }
+  },
+
+  "Content": {
+    "Hero": {
+      "top": "projects that speak for themselves",
+      "bottom": "Showreel 2025"
+    },
+    "About": {
+      "title_main": "WE",
+      "title_main_action": "CREATE",
+      "title_main_noun": "CONTENT,",
+      "tagline": "that you don't scroll past!",
+      "who_title": "Who are we?",
+      "who_description": "We're about content that holds attention.",
+      "ideas": "Texts, frames and visuals that are backed by an idea.",
+      "meaning": "Meanings that shape brand perception.",
+      "beauty": "And yes - we know how to make it beautiful. But most importantly - we hit the mark."
+    },
+    "Service": {
+      "title": "can do",
+      "what": "WHAT",
+      "we": "WE",
+      "list": [
+        "Advertising videos",
+        "Documentary films",
+        "YouTube content and channel management",
+        "Music videos",
+        "Animation (2D, 3D, infographics)",
+        "Key visual - from models to photo/video shoots and graphics",
+        "Photo and video coverage of events"
+      ]
+    },
+    "Documentary": {
+      "title": "DOCUMENTARY",
+      "note": "Documentary doesn't mean boring.",
+      "tagline": "We make it so you'll watch."
+    },
+    "Advertisement": {
+      "title": "Advertising videos turnkey",
+      "description_1": "We shoot ads that sell - without annoying.",
+      "description_2": "Videos: image, product, corporate and animated.",
+      "description_3": "People don't just watch - they want to buy."
+    },
+    "Info": {
+      "intro": "We create content that doesn't require a subscription - people already want it.",
+      "channels_title": "We make channels for brands, experts, bloggers and companies:",
+      "channels_list": [
+        "Podcasts, interviews, expert videos",
+        "Entertainment formats and review shows",
+        "Educational content - easy, clear, engaging"
+      ],
+      "youtube_tagline": "On YouTube you're not pushy. You become a habit."
+    },
+    "Animation": {
+      "title": "Animation",
+      "description_1": "A visual language that works even without sound and that people can't look away from!",
+      "description_2": "2D and 3D, infographics, characters - we explain complex things simply. And beautifully!"
+    },
+    "Clips": {
+      "music_title": "Music videos",
+      "music_description": "We shoot videos that look expensive, even on a small budget.",
+      "tagline": "We do more - we give the song a face."
+    },
+    "KeyVisual": {
+      "title": "KEY VISUAL",
+      "description": "We create the main brand visual - the one everything starts with:",
+      "list": ["Model and actor selection", "Photo and video shoots", "Graphic concepts for campaigns"]
+    },
+    "VideoServices": {
+      "title": "Photo and video coverage",
+      "subtitle": "of events",
+      "tagline": "Content that extends the life of an event and its effect!"
+    },
+    "Approach": {
+      "title": "OUR",
+      "subtitle": "APPROACH",
+      "description_1": "We don't stamp out content.",
+      "description_2": "We make what you can't ignore.",
+      "description_3": "Recognition - trust - results."
+    },
+    "WhyUs": {
+      "title": "WHY",
+      "subtitle": "us?",
+      "description_1": "Content can be made different.",
+      "description_2": "But you definitely know",
+      "description_3": "when it's \"that one\".",
+      "description_4": "We're about that.",
+      "company": "CPG MEDIA GROUP"
+    }
+  },
+
+  "Main": {
+    "Hero": {
+      "title": "Full-cycle media company",
+      "subtitle": "three directions - one solution"
+    },
+    "Head": {
+      "what": "What",
+      "we": "We",
+      "do": "can do"
+    },
+    "SelectedWork": {
+      "title": "Projects",
+      "subtitle": "That speak for themselves"
+    },
+    "Portfolio": {
+      "title": {
+        "cases": "Cases",
+        "which": "we are",
+        "speak": "PROUD of"
+      },
+      "categories": {
+        "event": "Events",
+        "content": "Content",
+        "social": "Social Media"
+      },
+      "items": [
+        {
+          "events": ["Cultural projects", "Educational camps", "Social programs"],
+          "content": ["Photo/video support of events", "Advertising and image videos"],
+          "socialMedia": ["Image support", "Media placement", "Advertising promotion"]
+        },
+        {
+          "events": [
+            "B2B/B2G: forums and conferences",
+            "BTL activations for a wide audience",
+            "Souvenir products and merchandise"
+          ],
+          "content": [
+            "Image and advertising videos",
+            "Photo/video support of events",
+            "YouTube channel and production"
+          ],
+          "socialMedia": ["Creative solutions and digital strategy", "Account management and media integrations"]
+        },
+        {
+          "events": [
+            "B2B: participation of the EU delegation in exhibitions in Almaty and Astana",
+            "B2G: cooperation of RK organizations with the EU delegation",
+            "B2B matchmaking: meetings between EU and KZ entrepreneurs"
+          ],
+          "content": ["Photo/video support of events"],
+          "socialMedia": ["PR support of events", "Press activities", "Advertising initiatives"]
+        },
+        {
+          "events": ["Business events", "Corporate banquets", "Conferences, forums, and teambuilding"],
+          "content": ["YouTube channel management and production", "Advertising and image videos"],
+          "socialMedia": [
+            "SMM strategy and page management (Instagram, Telegram, TikTok, Facebook)",
+            "Account management and media support"
+          ]
+        },
+        {
+          "events": [
+            "BTL segment for a wide audience",
+            "B2B events, forums, and exhibitions",
+            "Souvenir products and merchandise"
+          ],
+          "content": ["Image videos", "Photo/video support"],
+          "socialMedia": [
+            "SMM strategy and page management (Instagram, Telegram, TikTok, Facebook)",
+            "Content production and blogger integrations"
+          ]
+        },
+        {
+          "events": ["Organization of events for clients", "Souvenir products and merchandise"],
+          "content": ["Advertising and image videos", "YouTube management and production"],
+          "socialMedia": ["Creative concepts and slogans", "Blogger integrations", "Advertising campaigns"]
+        }
+      ],
+      "Studio": {
+        "title": "Production",
+        "base": "Base"
+      }
+    },
+    "Clients": {
+      "title": "TRUSTED BY"
+    },
+    "cta": {
+      "lets": "Let's",
+      "create": "Create",
+      "together": "Together",
+      "button": "contact us"
+    }
+  }
+}
