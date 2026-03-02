@@ -1,35 +1,16 @@
 import { NextResponse } from "next/server";
 
 export async function POST(request) {
-  const { name, email, service, message, token } = await request.json();
+  const { name, email, service, message } = await request.json();
 
   if (!name || !email || !service || !message) {
-    return NextResponse.json({ success: false, error: "Заполните все поля" }, { status: 500 });
-  }
-
-  if (!token) {
-    return NextResponse.json({ success: false, error: "Ошибка проверки капчи" }, { status: 500 });
-  }
-
-  // Verify HCaptcha token
-  const hcaptchaSecret = process.env.HCAPTCHA_SECRET_KEY;
-  const verifyResponse = await fetch("https://hcaptcha.com/siteverify", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/x-www-form-urlencoded",
-    },
-    body: `secret=${hcaptchaSecret}&response=${token}`,
-  });
-
-  const verifyData = await verifyResponse.json();
-  if (!verifyData.success) {
-    return NextResponse.json({ success: false, error: "Ошибка проверки капчи" }, { status: 500 });
+    return NextResponse.json({ success: false, error: "Заполните все поля" }, { status: 400 });
   }
 
   const TELEGRAM_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN;
   const TELEGRAM_CHANNEL_ID = process.env.TELEGRAM_CHANNEL_ID;
 
-  const text = `Новый лид с сайта\nИмя: ${name}\nEmail: ${email}\nУслуга: ${service}\nСообщение:\n\n${message}`;
+  const text = `📩 Новый лид с сайта\n\n👤 Имя: ${name}\n📧 Email: ${email}\n🔧 Услуга: ${service}\n💬 Сообщение:\n${message}`;
 
   try {
     const response = await fetch(`https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`, {
@@ -46,7 +27,7 @@ export async function POST(request) {
     if (!response.ok) {
       return NextResponse.json({ success: false, error: "Ошибка при отправке сообщения" }, { status: 500 });
     }
-    return NextResponse.json({ success: true, ...response.data });
+    return NextResponse.json({ success: true });
   } catch (err) {
     return NextResponse.json({ success: false, error: "Внутренняя ошибка сервера" }, { status: 500 });
   }

@@ -1,10 +1,9 @@
 "use client";
 
 import Image from "next/image";
-import { useState, useRef } from "react";
+import { useState } from "react";
 import { useI18n } from "@/i18n/useI18n";
 import { LoaderCircle } from "lucide-react";
-import HCaptcha from "@hcaptcha/react-hcaptcha";
 
 const defaultForm = {
   name: "",
@@ -17,8 +16,6 @@ export default function ContactPage() {
   const { t } = useI18n();
   const [loading, setLoading] = useState(false);
   const [formData, setFormData] = useState(defaultForm);
-  const [token, setToken] = useState(null);
-  const captchaRef = useRef(null);
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
@@ -26,10 +23,6 @@ export default function ContactPage() {
       ...prev,
       [name]: value,
     }));
-  };
-
-  const onLoad = () => {
-    captchaRef.current.execute();
   };
 
   const handleSubmit = async (e) => {
@@ -42,12 +35,10 @@ export default function ContactPage() {
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ ...formData, token }),
+        body: JSON.stringify(formData),
       });
       alert(t("contact.thank_you"));
       setFormData(defaultForm);
-      captchaRef.current.resetCaptcha();
-      captchaRef.current.execute();
     } catch (error) {
     } finally {
       setLoading(false);
@@ -184,13 +175,6 @@ export default function ContactPage() {
                     required
                   />
                 </div>
-
-                <HCaptcha
-                  sitekey={process.env.NEXT_PUBLIC_HCAPTCHA_SITEKEY}
-                  onLoad={onLoad}
-                  onVerify={setToken}
-                  ref={captchaRef}
-                />
 
                 {/* Submit Button */}
                 <button
