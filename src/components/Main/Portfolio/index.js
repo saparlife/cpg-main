@@ -114,7 +114,7 @@ export default function TrustSwiperSection() {
               <SwiperSlide key={slide.id} className="!w-[250px] lg:!w-[450px] !h-auto">
                 <div className="relative rounded-[25px] bg-black-1300 h-full flex flex-col">
                   <div className="bg-white sm:px-11 px-6 rounded-t-[25px] relative flex-shrink-0">
-                    <img src="/images/card-bg.svg" alt="" />
+                    <Image src="/images/card-bg.svg" alt="" width={300} height={100} className="w-full h-auto" />
                     <div className="absolute w-full h-full top-0 left-0 flex items-center justify-center pointer-events-none">
                       <Image
                         src={slide.logo}
@@ -126,7 +126,7 @@ export default function TrustSwiperSection() {
                     </div>
                   </div>
                   <div className="flex-shrink-0">
-                    <img src="/images/card-line.svg" alt="" className="h-[10px] lg:h-[20px]" />
+                    <Image src="/images/card-line.svg" alt="" width={450} height={20} className="h-[10px] lg:h-[20px] w-full" />
                   </div>
                   <div className="rounded-b-[25px] flex flex-col px-4 py-4 lg:px-12 lg:py-6 flex-grow min-h-[250px] lg:min-h-[350px]">
                     <h3 className="text-parrot-1100 text-sm lg:text-lg font-gotham">
@@ -173,7 +173,7 @@ export default function TrustSwiperSection() {
         {/* CTA Section */}
         <CTASection />
       </div>
-      <img src="/images/shape3.svg" alt="" className="absolute bottom-0 left-1/2 -translate-x-1/2 -z-[1]" />
+      <Image src="/images/shape3.svg" alt="" width={1920} height={800} className="absolute bottom-0 left-1/2 -translate-x-1/2 -z-[1]" />
     </section>
   );
 }

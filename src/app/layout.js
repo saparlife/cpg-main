@@ -3,13 +3,8 @@ import Script from "next/script";
 import MainLayout from "@/layouts/MainLayout";
 import { I18nProvider } from "@/i18n/I18nProvider";
 import SmoothScroll from "@/components/SmoothScroll";
-import SwiperCore from "swiper";
-import { Autoplay } from "swiper/modules";
-
 import "swiper/css";
 import "swiper/css/autoplay";
-
-SwiperCore.use([Autoplay]);
 
 export const metadata = {
   title: "CPG Media Group",

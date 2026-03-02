@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { useI18n } from "@/i18n/useI18n";
 
 export default function KeyVisual() {
@@ -21,7 +22,7 @@ export default function KeyVisual() {
           {/* Image column - 70% */}
           <div className="xl:col-span-7">
             <div className="w-full h-48 lg:h-96 rounded-lg overflow-hidden">
-              <img src="/images/image-12.png" alt="Key Visual" className="w-full h-full object-cover" />
+              <Image src="/images/image-12.png" alt="Key Visual" width={1200} height={600} className="w-full h-full object-cover" />
             </div>
           </div>
 

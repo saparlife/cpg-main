@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { useI18n } from "@/i18n/useI18n";
 
 export default function Education() {
@@ -5,9 +6,11 @@ export default function Education() {
   return (
     <section className="py-16 font-gotham relative">
       {/* Absolute Overlay Image */}
-      <img
+      <Image
         src="/images/shape10.svg"
         alt="Overlay decoration"
+        width={400}
+        height={400}
         className="absolute z-40 top-[40px] left-1/2 -translate-x-1/2 xl:top-[-20px] xl:left-[250px] w-[150px] h-[150px] lg:w-[250px] lg:h-[250px] xl:w-[400px] xl:h-[400px] object-contain pointer-events-none"
       />
 
@@ -42,7 +45,9 @@ export default function Education() {
 
           {/* Image 2 */}
           <div className="group bg-gray-200 rounded-xl overflow-hidden">
-            <img
+            <Image
+              width={600}
+              height={400}
               src="/images/image29.png"
               alt="Educational content 1"
               className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
@@ -51,7 +56,9 @@ export default function Education() {
 
           {/* Image 3 */}
           <div className="group bg-gray-200 rounded-xl overflow-hidden">
-            <img
+            <Image
+              width={600}
+              height={400}
               src="/images/image30.png"
               alt="Educational content 2"
               className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110  "
@@ -60,7 +67,9 @@ export default function Education() {
 
           {/* Image 4 */}
           <div className="group bg-gray-200 rounded-xl overflow-hidden">
-            <img
+            <Image
+              width={600}
+              height={400}
               src="/images/image31.png"
               alt="Educational content 3"
               className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
@@ -69,7 +78,9 @@ export default function Education() {
 
           {/* Image 5 */}
           <div className="group bg-gray-200 rounded-xl overflow-hidden">
-            <img
+            <Image
+              width={600}
+              height={400}
               src="/images/image32.png"
               alt="Educational content 4"
               className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
@@ -78,7 +89,9 @@ export default function Education() {
 
           {/* Image 6 */}
           <div className="group bg-gray-200 rounded-xl overflow-hidden">
-            <img
+            <Image
+              width={600}
+              height={400}
               src="/images/image33.png"
               alt="Educational content 5"
               className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"

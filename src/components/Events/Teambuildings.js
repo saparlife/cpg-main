@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { useI18n } from "@/i18n/useI18n";
 
 export default function Teambuildings() {
@@ -5,9 +6,11 @@ export default function Teambuildings() {
   return (
     <section className="py-16 font-gotham relative">
       {/* Absolute Overlay Image */}
-      <img
+      <Image
         src="/images/shape9.svg"
         alt="Overlay decoration"
+        width={600}
+        height={600}
         className="absolute z-40 top-0 left-1/2 -translate-x-1/2 lg:top-[-120px] xl:top-[-100px] lg:left-[40%] lg:translate-x-0 w-[250px] h-[250px] lg:w-[600px] lg:h-[600px] object-contain pointer-events-none"
       />
 
@@ -42,7 +45,9 @@ export default function Teambuildings() {
             <div className="grid grid-cols-2 md:grid-cols-3 gap-4 lg:gap-6">
               {/* Row 1 */}
               <div className="relative group overflow-hidden rounded-xl">
-                <img
+                <Image
+                  width={500}
+                  height={250}
                   src="/images/image-23.png"
                   alt="Teambuilding activity 1"
                   className="w-full h-[200px] lg:h-[250px] object-cover transition-transform duration-300 group-hover:scale-110"
@@ -51,7 +56,9 @@ export default function Teambuildings() {
               </div>
 
               <div className="relative group overflow-hidden rounded-xl">
-                <img
+                <Image
+                  width={500}
+                  height={250}
                   src="/images/image-24.png"
                   alt="Teambuilding activity 2"
                   className="w-full h-[200px] lg:h-[250px] object-cover transition-transform duration-300 group-hover:scale-110"
@@ -60,7 +67,9 @@ export default function Teambuildings() {
               </div>
 
               <div className="relative group overflow-hidden rounded-xl">
-                <img
+                <Image
+                  width={500}
+                  height={250}
                   src="/images/image-25.png"
                   alt="Teambuilding activity 3"
                   className="w-full h-[200px] lg:h-[250px] object-cover transition-transform duration-300 group-hover:scale-110"
@@ -70,7 +79,9 @@ export default function Teambuildings() {
 
               {/* Row 2 */}
               <div className="relative group overflow-hidden rounded-xl">
-                <img
+                <Image
+                  width={500}
+                  height={250}
                   src="/images/image-26.png"
                   alt="Corporate event 1"
                   className="w-full h-[200px] lg:h-[250px] object-cover transition-transform duration-300 group-hover:scale-110"
@@ -79,7 +90,9 @@ export default function Teambuildings() {
               </div>
 
               <div className="relative group overflow-hidden rounded-xl">
-                <img
+                <Image
+                  width={500}
+                  height={250}
                   src="/images/image-27.png"
                   alt="Corporate event 2"
                   className="w-full h-[200px] lg:h-[250px] object-cover transition-transform duration-300 group-hover:scale-110"
@@ -88,7 +101,9 @@ export default function Teambuildings() {
               </div>
 
               <div className="relative group overflow-hidden rounded-xl">
-                <img
+                <Image
+                  width={500}
+                  height={250}
                   src="/images/image-28.png"
                   alt="Corporate event 3"
                   className="w-full h-[200px] lg:h-[250px] object-cover transition-transform duration-300 group-hover:scale-110"

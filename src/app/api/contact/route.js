@@ -48,7 +48,6 @@ export async function POST(request) {
     }
     return NextResponse.json({ success: true, ...response.data });
   } catch (err) {
-    console.error("❌ Error:", err);
-    return NextResponse.json({ success: false, error: err.message }, { status: 500 });
+    return NextResponse.json({ success: false, error: "Внутренняя ошибка сервера" }, { status: 500 });
   }
 }

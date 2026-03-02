@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { useI18n } from "@/i18n/useI18n";
 
 export default function Service() {
@@ -47,7 +48,7 @@ export default function Service() {
 
         {/* Overlay Image - extends under right column */}
         <div className="absolute top-none bottom-[-20px] md:bottom-none lg:top-1/2 left-[31.3%] lg:left-[27.5%] xl:left-[28.8%] z-50 -translate-y-1/2 pointer-events-none">
-          <img src="/images/hand-2.png" alt="Hand pointing" className="w-16 lg:w-64 xl:w-80 h-auto" />
+          <Image src="/images/hand-2.png" alt="Hand pointing" width={320} height={400} className="w-16 lg:w-64 xl:w-80 h-auto" />
         </div>
       </div>
     </section>

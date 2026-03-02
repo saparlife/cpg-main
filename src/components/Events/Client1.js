@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { useI18n } from "@/i18n/useI18n";
 
 export default function Client1() {
@@ -5,9 +6,11 @@ export default function Client1() {
   return (
     <section className="py-20 lg:py-16 font-gotham relative mt-16">
       {/* Absolute Overlay Image */}
-      <img
+      <Image
         src="/images/shape12.svg"
         alt="Overlay decoration"
+        width={700}
+        height={700}
         className="absolute z-40 -top-[30px] left-1/2 transform -translate-x-1/2 w-[300px] h-auto lg:translate-0 lg:top-[-30px] lg:left-[50px] lg:w-[400px] lg:h-[400px] xl:translate-0 xl:top-[-100px] xl:left-[50px] xl:w-[700px] xl:h-[700px] object-contain pointer-events-none"
       />
 
@@ -44,10 +47,11 @@ export default function Client1() {
           <div className="lg:col-span-3">
             <div className="space-y-6 bg-parrot-1100 p-8 rounded-lg h-full flex items-center relative overflow-hidden">
               {/* Background Image - positioned over bg but under text */}
-              <img
+              <Image
                 src="/images/shape7.svg"
                 alt="Background decoration"
-                className="absolute inset-0 w-full h-full object-cover z-10"
+                fill
+                className="object-cover z-10"
               />
               <h4 className="text-md leading-tight xl:text-2xl text-center uppercase text-black-1100 font-gothamultra relative z-20">
                 {t("Events.Client1.description")}
@@ -65,27 +69,33 @@ export default function Client1() {
             <div className="grid grid-cols-2 md:grid-cols-3 gap-4 lg:gap-6">
               {/* Row 1 */}
               <div className="relative group overflow-hidden rounded-xl">
-                <img
+                <Image
                   src="/images/image41.png"
                   alt="Teambuilding activity 1"
+                  width={600}
+                  height={400}
                   className="w-full h-[150px] lg:h-[200px] object-cover transition-transform duration-300 group-hover:scale-110"
                 />
                 <div className="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition-all duration-300"></div>
               </div>
 
               <div className="relative group overflow-hidden rounded-xl">
-                <img
+                <Image
                   src="/images/image42.png"
                   alt="Teambuilding activity 2"
+                  width={600}
+                  height={400}
                   className="w-full h-[150px] lg:h-[200px] object-cover transition-transform duration-300 group-hover:scale-110"
                 />
                 <div className="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition-all duration-300"></div>
               </div>
 
               <div className="relative group overflow-hidden rounded-xl">
-                <img
+                <Image
                   src="/images/image43.png"
                   alt="Teambuilding activity 3"
+                  width={600}
+                  height={400}
                   className="w-full h-[150px] lg:h-[200px] object-cover transition-transform duration-300 group-hover:scale-110"
                 />
                 <div className="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition-all duration-300"></div>
@@ -93,27 +103,33 @@ export default function Client1() {
 
               {/* Row 2 */}
               <div className="relative group overflow-hidden rounded-xl">
-                <img
+                <Image
                   src="/images/image44.png"
                   alt="Corporate event 1"
+                  width={600}
+                  height={400}
                   className="w-full h-[150px] lg:h-[200px] object-cover transition-transform duration-300 group-hover:scale-110"
                 />
                 <div className="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition-all duration-300"></div>
               </div>
 
               <div className="relative group overflow-hidden rounded-xl">
-                <img
+                <Image
                   src="/images/image45.png"
                   alt="Corporate event 2"
+                  width={600}
+                  height={400}
                   className="w-full h-[150px] lg:h-[200px] object-cover transition-transform duration-300 group-hover:scale-110"
                 />
                 <div className="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition-all duration-300"></div>
               </div>
 
               <div className="relative group overflow-hidden rounded-xl">
-                <img
+                <Image
                   src="/images/image46.png"
                   alt="Corporate event 3"
+                  width={600}
+                  height={400}
                   className="w-full h-[150px] lg:h-[200px] object-cover transition-transform duration-300 group-hover:scale-110"
                 />
                 <div className="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition-all duration-300"></div>

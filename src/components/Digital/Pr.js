@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { useI18n } from "@/i18n/useI18n";
 
 export default function Pr() {
@@ -18,7 +19,7 @@ export default function Pr() {
           {t("Digital.Pr.intro_part2")}
         </p>
         <div className="flex items-center flex-col text-center space-y-6">
-          <img src="/images/shape16.png" alt="PR" className="mt-12 rounded-4xl" />
+          <Image src="/images/shape16.png" alt="PR" width={800} height={500} className="mt-12 rounded-4xl" />
           <p className="text-white px-6 text-xl">{t("Digital.Pr.tagline")}</p>
         </div>
       </div>

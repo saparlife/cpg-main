@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { useI18n } from "@/i18n/useI18n";
 
 export default function Info() {
@@ -6,7 +7,7 @@ export default function Info() {
   return (
     <div className="w-full relative min-h-screen flex items-center justify-center">
       <div className="absolute inset-0 w-full h-full">
-        <img src="/images/shape6.svg" alt="" width={1024} height={1024} className="w-full h-auto" />
+        <Image src="/images/shape6.svg" alt="" width={1024} height={1024} className="w-full h-auto" />
       </div>
       <div className="relative z-10 container mx-auto px-12 flex flex-col items-center justify-center space-y-4">
         {/* Big centered title */}

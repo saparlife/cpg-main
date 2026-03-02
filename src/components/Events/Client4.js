@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { useI18n } from "@/i18n/useI18n";
 
 export default function Client4() {
@@ -5,9 +6,11 @@ export default function Client4() {
   return (
     <section className="py-16 font-gotham relative">
       {/* Absolute Overlay Image */}
-      <img
+      <Image
         src="/images/shape14.svg"
         alt="Overlay decoration"
+        width={600}
+        height={600}
         className="absolute z-40 top-[-20px] right-0 lg:right-none lg:top-[-100px] lg:left-[150px] w-[300px] h-[300px] lg:w-[600px] lg:h-[600px] object-contain pointer-events-none"
       />
 
@@ -36,47 +39,52 @@ export default function Client4() {
           </div>
 
           {/* Image 2 */}
-          <div className="group bg-gray-200 rounded-xl overflow-hidden">
-            <img
+          <div className="relative group bg-gray-200 rounded-xl overflow-hidden min-h-[200px]">
+            <Image
               src="/images/image54.png"
               alt="Educational content 1"
-              className="w-full h-full object-cover transition-transform duration-300 scale-105 group-hover:scale-110"
+              fill
+              className="object-cover transition-transform duration-300 scale-105 group-hover:scale-110"
             />
           </div>
 
           {/* Image 3 */}
-          <div className="group bg-gray-200 rounded-xl overflow-hidden">
-            <img
+          <div className="relative group bg-gray-200 rounded-xl overflow-hidden min-h-[200px]">
+            <Image
               src="/images/image55.png"
               alt="Educational content 2"
-              className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110  "
+              fill
+              className="object-cover transition-transform duration-300 group-hover:scale-110"
             />
           </div>
 
           {/* Image 4 */}
-          <div className="group bg-gray-200 rounded-xl overflow-hidden">
-            <img
+          <div className="relative group bg-gray-200 rounded-xl overflow-hidden min-h-[200px]">
+            <Image
               src="/images/image56.png"
               alt="Educational content 3"
-              className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+              fill
+              className="object-cover transition-transform duration-300 group-hover:scale-110"
             />
           </div>
 
           {/* Image 5 */}
-          <div className="group bg-gray-200 rounded-xl overflow-hidden">
-            <img
+          <div className="relative group bg-gray-200 rounded-xl overflow-hidden min-h-[200px]">
+            <Image
               src="/images/image57.png"
               alt="Educational content 4"
-              className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+              fill
+              className="object-cover transition-transform duration-300 group-hover:scale-110"
             />
           </div>
 
           {/* Image 6 */}
-          <div className="group bg-gray-200 rounded-xl overflow-hidden">
-            <img
+          <div className="relative group bg-gray-200 rounded-xl overflow-hidden min-h-[200px]">
+            <Image
               src="/images/image58.png"
               alt="Educational content 5"
-              className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+              fill
+              className="object-cover transition-transform duration-300 group-hover:scale-110"
             />
           </div>
         </div>

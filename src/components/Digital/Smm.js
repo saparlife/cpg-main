@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { useI18n } from "@/i18n/useI18n";
 
 export default function Smm() {
@@ -14,7 +15,7 @@ export default function Smm() {
             </h3>
           </div>
           <div className="bg-parrot-1100 relative leading-tight z-30 font-gotham rounded-2xl p-4 xl:p-16 flex flex-col flex-1 justify-center min-h-32 border-parrot-1100 border-[5px]">
-            <img src="/images/shape4.svg" alt="Decorative Shape" className="absolute z-10 top-0 opacity-5" />
+            <Image src="/images/shape4.svg" alt="Decorative Shape" fill className="absolute z-10 top-0 opacity-5 object-cover" />
             <div className="relative z-20">
               <div className="bg-black-1100 text-parrot-1100 rounded-2xl p-4 text-xl lg:text-2xl">
                 {t("Digital.Smm.description")}
@@ -33,10 +34,10 @@ export default function Smm() {
         <div className="flex flex-col gap-8 flex-grow">
           <div className="grid grid-cols-[40fr_60fr] gap-6">
             <div className="rounded-2xl min-h-32 border-parrot-1100 border-[5px] overflow-hidden">
-              <img src="/images/image67.png" alt="SMM Visual" className="w-full h-auto scale-105" />
+              <Image src="/images/image67.png" alt="SMM Visual" width={600} height={400} className="w-full h-auto scale-105" />
             </div>
             <div className="rounded-2xl min-h-32 border-parrot-1100 border-[5px] overflow-hidden">
-              <img src="/images/image68.png" alt="SMM Visual" className="w-full h-auto scale-105" />
+              <Image src="/images/image68.png" alt="SMM Visual" width={600} height={400} className="w-full h-auto scale-105" />
             </div>
           </div>
           <div className="rounded-2xl p-6 border-parrot-1100 border-[5px]">

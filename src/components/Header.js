@@ -27,7 +27,7 @@ export default function Header() {
   return (
     <>
       <div className="flex justify-end mb-4">
-        <img src="/images/header-top.svg" alt="" className="h-[35px]" />
+        <Image src="/images/header-top.svg" alt="" width={200} height={35} className="h-[35px] w-auto" />
       </div>
       <header className="3xl:py-[25px] xl:py-14 py-2">
         <div className="max-w-[1760px] px-5 mx-auto w-full">

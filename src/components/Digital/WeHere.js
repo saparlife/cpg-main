@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { useI18n } from "@/i18n/useI18n";
 
 export default function WeHere() {
@@ -33,15 +34,18 @@ export default function WeHere() {
           </div>
         </div>
       </div>
-      <img
+      <Image
         src="/images/shape6.svg"
         alt="Advantages illustration"
-        className="absolute w-full top-0 left-0 h-full object-contain z-40 opacity-20"
+        fill
+        className="object-contain z-40 opacity-20"
       />
       {/* Absolute positioned image that overlays left boxes */}
-      <img
+      <Image
         src="/images/image69.png"
         alt="Advantages illustration"
+        width={600}
+        height={800}
         className="absolute top-8 lg:left-20 left-10 w-[100px] lg:w-2/5 h-[calc(100%_-_4rem)] object-contain rounded-lg z-50"
       />
     </div>

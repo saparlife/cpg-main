@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { useI18n } from "@/i18n/useI18n";
 
 export default function Client2() {
@@ -46,11 +47,12 @@ export default function Client2() {
           </div>
 
           {/* Right column - 70% width */}
-          <div className="w-full lg:w-[70%] rounded-xl overflow-hidden">
-            <img
+          <div className="relative w-full lg:w-[70%] rounded-xl overflow-hidden">
+            <Image
               src="/images/image47.png"
               alt="Corporate Souvenirs"
-              className="w-full h-full object-cover rounded-xl"
+              fill
+              className="object-cover rounded-xl"
             />
           </div>
         </div>

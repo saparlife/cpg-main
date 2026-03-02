@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { useI18n } from "@/i18n/useI18n";
 
 export default function Client3() {
@@ -39,7 +40,7 @@ export default function Client3() {
 
           {/* Right column - 70% width */}
           <div className="w-full lg:w-[75%] rounded-xl overflow-hidden bg-black-500">
-            <img src="/images/image73.png" alt="Image" className="w-full h-full object-cover rounded-xl" />
+            <Image src="/images/image73.png" alt="Image" fill className="object-cover rounded-xl" />
           </div>
         </div>
       </div>

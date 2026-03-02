@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { useI18n } from "@/i18n/useI18n";
 
 export default function VideoServices() {
@@ -13,7 +14,7 @@ export default function VideoServices() {
   return (
     <div className="relative w-full h-[500px] lg:h-[700px] xl:h-screen my-24">
       {/* Full width image */}
-      <img src={image} alt="Video Services Background" className="w-full h-full object-contain" />
+      <Image src={image} alt="Video Services Background" width={1920} height={1080} className="w-full h-full object-contain" />
 
       {/* Text overlay 1 - Top Left */}
       <div className="absolute top-8 left-8 z-10 font-gothamultra uppercase leading-tight text-4xl lg:text-6xl xl:text-6xl">

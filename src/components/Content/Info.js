@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { useI18n } from "@/i18n/useI18n";
 
 export default function Info() {
@@ -33,9 +34,11 @@ export default function Info() {
       {/* Overlayed Image on the Right */}
       <div className="absolute top-0 right-0 w-[30%] lg:w-1/2 h-full">
         <div className="relative h-full">
-          <img
+          <Image
             src="/images/image-6.png"
             alt="Creative content"
+            width={400}
+            height={400}
             className="absolute top-1/2 right-0 lg:right-16 transform -translate-y-1/2 w-48 lg:w-96 h-auto object-contain"
           />
         </div>

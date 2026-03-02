@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { useI18n } from "@/i18n/useI18n";
 
 export default function WhyUs() {
@@ -54,7 +55,7 @@ export default function WhyUs() {
 
       {/* Overlay Image - Bottom Right */}
       <div className="absolute bottom-0 right-0 w-3/5 z-20">
-        <img src="/images/image74.png" alt="Creative overlay" className="w-full h-full object-contain" />
+        <Image src="/images/image74.png" alt="Creative overlay" width={1200} height={800} className="w-full h-full object-contain" />
       </div>
     </div>
   );

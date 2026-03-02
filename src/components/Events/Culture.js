@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { useI18n } from "@/i18n/useI18n";
 
 export default function Culture() {
@@ -7,7 +8,7 @@ export default function Culture() {
       <div className="max-w-[1640px] px-[20px] md:px-[60px] mx-auto w-full">
         {/* 1. Image Section */}
         <div className="mb-[20px]">
-          <img src="/images/cultural.svg" alt="Culture and Events" className="w-full h-full object-cover" />
+          <Image src="/images/cultural.svg" alt="Culture and Events" width={1640} height={200} className="w-full h-full object-cover" />
         </div>
 
         {/* 2. Two Column Section 40/60 */}

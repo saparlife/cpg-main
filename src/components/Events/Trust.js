@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { useI18n } from "@/i18n/useI18n";
 
 export default function Trust() {
@@ -32,7 +33,7 @@ export default function Trust() {
         </div>
         <div className="block xl:hidden col-span-4 relative z-20">
           <div className="h-full min-h-[600px] rounded-2xl overflow-hidden shadow-2xl">
-            <img src="/images/image63.png" alt="Trust and Excellence" className="w-full h-full object-cover" />
+            <Image src="/images/image63.png" alt="Trust and Excellence" fill className="object-cover" />
           </div>
         </div>
 
@@ -50,7 +51,7 @@ export default function Trust() {
           {/* Middle Column - 40% (4/10) */}
           <div className="hidden xl:block col-span-4 relative z-20">
             <div className="h-full min-h-[600px] rounded-lg overflow-hidden -mt-20 shadow-2xl">
-              <img src="/images/image63.png" alt="Trust and Excellence" className="w-full h-full object-cover" />
+              <Image src="/images/image63.png" alt="Trust and Excellence" fill className="object-cover" />
             </div>
           </div>
 

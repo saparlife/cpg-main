@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { useI18n } from "@/i18n/useI18n";
 
 export default function Advantages() {
@@ -9,7 +10,7 @@ export default function Advantages() {
         {/* Left Column - 70% */}
         <div className="col-span-6 flex flex-col flex-1">
           <div className="relative p-10 rounded-2xl mb-6 border-parrot-1100 border-[5px] flex-grow ">
-            <img src="/images/star1.png" alt="Advantages Icon" className="absolute right-12 top-12 w-12 h-12 z-40" />
+            <Image src="/images/star1.png" alt="Advantages Icon" width={48} height={48} className="absolute right-12 top-12 w-12 h-12 z-40" />
             <h3 className="text-2xl xl:text-4xl font-semibold mb-3 text-parrot-1100 font-gothamultra uppercase">
               {t("Digital.Advantages.title")}
               <br />
@@ -29,9 +30,11 @@ export default function Advantages() {
                 {t("Digital.Advantages.analytics")}
               </p>
             </div>
-            <img
+            <Image
               src="/images/image66.png"
               alt="Advantages illustration"
+              width={600}
+              height={800}
               className="block lg:hidden object-contain rounded-lg z-10 w-48"
             />
           </div>
@@ -44,9 +47,11 @@ export default function Advantages() {
       </div>
 
       {/* Absolute positioned image that overlays left boxes */}
-      <img
+      <Image
         src="/images/image66.png"
         alt="Advantages illustration"
+        width={600}
+        height={800}
         className="hidden lg:block absolute top-8 right-6 xl:right-20 w-2/5 h-[calc(100%_-_4rem)] object-contain rounded-lg z-10"
       />
     </div>

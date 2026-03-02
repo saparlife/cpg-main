@@ -1,9 +1,8 @@
 "use client";
 
-// import { Play } from "lucide-react";
+import Image from "next/image";
 import { useRef, useEffect } from "react";
 import { useInView } from "framer-motion";
-// import VideoPlayer from "@/components/VideoPlayer";
 import { useI18n } from "@/i18n/useI18n";
 
 export default function Hero({ top, bottom, imageUrl = "/images/img1.png", videoUrl = "/videos/cpg_15sec_eng.webm" }) {
@@ -44,9 +43,11 @@ export default function Hero({ top, bottom, imageUrl = "/images/img1.png", video
       <section className="pb-[66px] overflow-hidden">
         <div className="max-w-[1760px] px-5 mx-auto w-full">
           <div className="relative">
-            <img
+            <Image
               src="/images/top-hero.png"
               alt="top-hero"
+              width={1232}
+              height={100}
               className="absolute top-[-1px] left-[-2px] w-[70%] h-auto z-[40]"
             />
             <p className="absolute top-0 left-0 z-[50] text-parrot-1100 font-black 4xl:text-[55px] 3xl:text-[44px] text-[10px] sm:text-2xl lg:text-3xl xl:text-4xl 2xl:text-[44px] uppercase">
@@ -83,9 +84,11 @@ export default function Hero({ top, bottom, imageUrl = "/images/img1.png", video
             <p className="absolute bottom-0 right-0 z-[50] text-parrot-1100 font-black 4xl:text-right uppercase lg:text-3xl sm:text-base text-[10px] xl:text-4xl 3xl:text-4xl 4xl:text-5xl 4xl:leading-[45px] 4xl:max-w-[1033px] md:max-w-[480px] lg:max-w-[640px] xl:max-w-[784px] 2xl:max-w-[890px] 3xl:max-w-[941px] ml-auto w-full text-right">
               {bottom}
             </p>
-            <img
+            <Image
               src="/images/top-hero.png"
               alt="top-hero"
+              width={1232}
+              height={100}
               className="absolute bottom-[-1px] right-0 rotate-180 w-[70%] h-auto z-[40]"
             />
           </div>

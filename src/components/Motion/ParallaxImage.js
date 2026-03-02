@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { motion, useScroll, useTransform, useReducedMotion } from "framer-motion";
 import { useRef } from "react";
 
@@ -33,7 +34,7 @@ export default function ParallaxImage({
         className={className}
       >
         {children || (
-          <img src={src} alt={alt} className="w-full h-full object-cover" />
+          <Image src={src} alt={alt} fill className="object-cover" />
         )}
       </motion.div>
     </div>

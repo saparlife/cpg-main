@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useState, useRef } from "react";
 import { useI18n } from "@/i18n/useI18n";
 import { LoaderCircle } from "lucide-react";
@@ -36,7 +37,6 @@ export default function ContactPage() {
       e.preventDefault();
       if (loading) return;
       setLoading(true);
-      console.log("Form submitted:", formData);
       await fetch("/api/contact", {
         method: "POST",
         headers: {
@@ -49,7 +49,6 @@ export default function ContactPage() {
       captchaRef.current.resetCaptcha();
       captchaRef.current.execute();
     } catch (error) {
-      console.error("Error submitting form:", error);
     } finally {
       setLoading(false);
     }
@@ -64,7 +63,7 @@ export default function ContactPage() {
           <div className="lg:w-3/5 relative">
             {/* Overlay Image */}
             <div className="absolute bottom-[-100px] z-40">
-              <img src="/images/monkey.png" alt="Monkey" className="w-full h-full object-contain" />
+              <Image src="/images/monkey.png" alt="Monkey" width={400} height={400} className="w-full h-full object-contain" />
             </div>
             {/* Background Image */}
             <div

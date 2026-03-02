@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { useI18n } from "@/i18n/useI18n";
 
 export default function Suvenirs() {
@@ -31,10 +32,11 @@ export default function Suvenirs() {
 
           {/* Right column - 70% width */}
           <div className="w-full lg:w-[75%] rounded-xl overflow-hidden">
-            <img
+            <Image
               src="/images/image34.png"
               alt="Corporate Souvenirs"
-              className="w-full h-full object-cover rounded-xl"
+              fill
+              className="object-cover rounded-xl"
             />
           </div>
         </div>

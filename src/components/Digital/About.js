@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { useI18n } from "@/i18n/useI18n";
 
 export default function About() {
@@ -7,7 +8,7 @@ export default function About() {
     <section className="relative w-full xl:min-h-screen">
       {/* Background Shape */}
       <div className="absolute inset-0 w-full h-full">
-        <img src="/images/shape6.svg" alt="" className="w-full h-full object-cover" />
+        <Image src="/images/shape6.svg" alt="" fill className="object-cover" />
       </div>
 
       {/* Content */}

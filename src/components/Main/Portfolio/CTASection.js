@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useI18n } from "@/i18n/useI18n";
 import { motion, useReducedMotion, useScroll, useTransform } from "framer-motion";
 import { heroIntroStagger, heroIntroItem, reducedMotion, viewportConfig } from "@/lib/animations";
@@ -59,7 +60,7 @@ export default function CTA() {
           >
             {t("Main.cta.button")}
             <span>
-              <img src="/images/double-arw.svg" alt="" className="group-hover:invert-100" />
+              <Image src="/images/double-arw.svg" alt="" width={24} height={24} className="group-hover:invert-100" />
             </span>
           </a>
         </motion.div>

@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Categories from "./Categories";
 import Head from "./Head";
 import SelectedWork from "./SelectedWork";
@@ -13,11 +14,11 @@ export default function About() {
           <Head />
           <Categories />
           <SelectedWork />
-          <img src="/images/down-arw.svg" alt="" className="absolute top-[75px] right-0 -z-[1]" />
+          <Image src="/images/down-arw.svg" alt="" width={100} height={800} className="absolute top-[75px] right-0 -z-[1]" />
         </div>
         <Swiper />
 
-        <img src="/images/big-downarw.svg" alt="" className="absolute bottom-0 right-0 -z-[1] xl:h-auto h-[1220px]" />
+        <Image src="/images/big-downarw.svg" alt="" width={400} height={1220} className="absolute bottom-0 right-0 -z-[1] xl:h-auto h-[1220px]" />
       </section>
     </>
   );

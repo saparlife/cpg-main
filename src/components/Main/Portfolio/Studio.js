@@ -32,7 +32,7 @@ export default function Studio() {
   return (
     <div className="pt-2">
       <div className="relative">
-        <img src="/images/curved-line.svg" alt="Studio" className="w-full h-auto" />
+        <Image src="/images/curved-line.svg" alt="Studio" width={1400} height={20} className="w-full h-auto" />
         <div className="absolute right-0 lg:right-[40px] top-[-10px]">
           <h2 className="font-gotham text-sm lg:text-4xl uppercase">
             <span className="text-parrot-1100">{t("Main.Portfolio.Studio.title")}</span>
@@ -76,7 +76,7 @@ export default function Studio() {
         </Swiper>
       </DragCursor>
       <div className="relative">
-        <img src="/images/curved-line.svg" alt="Studio" className="w-full h-auto" />
+        <Image src="/images/curved-line.svg" alt="Studio" width={1400} height={20} className="w-full h-auto" />
         <div className="absolute left-0 top-[5px] lg:left-[40px] lg:top-[20px]">
           <h2 className="font-gotham text-sm lg:text-4xl uppercase">
             <span className="text-parrot-1100">CPG SPACE</span>

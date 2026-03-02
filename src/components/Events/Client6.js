@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { useI18n } from "@/i18n/useI18n";
 
 export default function Client6() {
@@ -10,15 +11,16 @@ export default function Client6() {
           <div className="w-full lg:w-[25%] bg-parrot-1100 rounded-xl p-8 flex flex-col items-center relative overflow-hidden">
             {/* Background image */}
 
-            <img
+            <Image
               src="/images/shape7.svg"
               alt="Background decoration"
-              className="absolute inset-0 w-full h-full object-cover z-10"
+              fill
+              className="object-cover z-10"
             />
 
             {/* Content */}
             <div className="relative z-10 py-6 justify-center items-center flex flex-col">
-              <img src="/images/shape15.svg" alt="EU Logo" className="w-32 lg:w-64 h-auto" />
+              <Image src="/images/shape15.svg" alt="EU Logo" width={256} height={100} className="w-32 lg:w-64 h-auto" />
               <div className="text-xl xl:text-2xl leading-tight font-bold font-gotham text-black-500 uppercase text-center">
                 <h3 className="pr-12">{t("Events.Client6.title")}</h3>
                 <h3 className="pl-12">{t("Events.Client6.title_part2")}</h3>
@@ -39,10 +41,11 @@ export default function Client6() {
 
           {/* Right column - 70% width */}
           <div className="w-full lg:w-[75%] rounded-xl overflow-hidden">
-            <img
+            <Image
               src="/images/image62.png"
               alt="Corporate Souvenirs"
-              className="w-full h-full object-cover rounded-xl"
+              fill
+              className="object-cover rounded-xl"
             />
           </div>
         </div>

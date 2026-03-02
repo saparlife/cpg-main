@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { useI18n } from "@/i18n/useI18n";
 
 export default function Projects() {
@@ -25,7 +26,9 @@ export default function Projects() {
           <div className="grid grid-cols-3 gap-6">
             {/* Image 2 */}
             <div className="group bg-gray-200 rounded-xl overflow-hidden">
-              <img
+              <Image
+                width={600}
+                height={400}
                 src="/images/image35.png"
                 alt="Educational content 1"
                 className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
@@ -34,7 +37,9 @@ export default function Projects() {
 
             {/* Image 3 */}
             <div className="group bg-gray-200 rounded-xl overflow-hidden">
-              <img
+              <Image
+                width={600}
+                height={400}
                 src="/images/image36.png"
                 alt="Educational content 2"
                 className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110  "
@@ -43,7 +48,9 @@ export default function Projects() {
 
             {/* Image 4 */}
             <div className="group bg-gray-200 rounded-xl overflow-hidden">
-              <img
+              <Image
+                width={600}
+                height={400}
                 src="/images/image37.png"
                 alt="Educational content 3"
                 className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
@@ -57,18 +64,22 @@ export default function Projects() {
             <div className="w-full lg:w-[50%] grid grid-cols-2 gap-6">
               {/* Image 5 */}
               <div className="group bg-gray-200 rounded-xl overflow-hidden">
-                <img
+                <Image
                   src="/images/image38.png"
                   alt="Educational content 4"
+                  width={600}
+                  height={400}
                   className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
                 />
               </div>
 
               {/* Image 6 */}
               <div className="group bg-gray-200 rounded-xl overflow-hidden">
-                <img
+                <Image
                   src="/images/image39.png"
                   alt="Educational content 5"
+                  width={600}
+                  height={400}
                   className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
                 />
               </div>

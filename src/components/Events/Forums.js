@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { useI18n } from "@/i18n/useI18n";
 
 export default function Forums() {
@@ -20,7 +21,9 @@ export default function Forums() {
           </div>
           <div className="flex-1 hidden xl:block">
             <div className="h-full overflow-hidden rounded-lg">
-              <img
+              <Image
+                width={600}
+                height={400}
                 src="/images/image-18.png"
                 alt="Forum event"
                 className="w-full h-full object-cover transition-transform duration-300 ease-in-out hover:scale-105"
@@ -40,7 +43,9 @@ export default function Forums() {
         <div className="flex flex-col gap-4">
           <div className="flex-1 block xl:hidden">
             <div className="h-full overflow-hidden rounded-lg">
-              <img
+              <Image
+                width={600}
+                height={400}
                 src="/images/image-18.png"
                 alt="Forum event"
                 className="w-full h-full object-cover transition-transform duration-300 ease-in-out hover:scale-105"
@@ -56,7 +61,9 @@ export default function Forums() {
           </div>
           <div className="flex-1">
             <div className="h-full overflow-hidden rounded-lg">
-              <img
+              <Image
+                width={600}
+                height={400}
                 src="/images/image-19.png"
                 alt="Conference presentation"
                 className="w-full h-full object-cover transition-transform duration-300 ease-in-out hover:scale-105"
@@ -65,7 +72,9 @@ export default function Forums() {
           </div>
           <div className="flex-1">
             <div className="h-full overflow-hidden rounded-lg">
-              <img
+              <Image
+                width={600}
+                height={400}
                 src="/images/image-20.png"
                 alt="Networking event"
                 className="w-full h-full object-cover transition-transform duration-300 ease-in-out hover:scale-105"
@@ -78,7 +87,9 @@ export default function Forums() {
         <div className="flex flex-col gap-4">
           <div className="flex-1">
             <div className="h-full overflow-hidden rounded-lg">
-              <img
+              <Image
+                width={600}
+                height={400}
                 src="/images/image-21.png"
                 alt="Panel discussion"
                 className="w-full h-full object-cover transition-transform duration-300 ease-in-out hover:scale-105"
@@ -87,7 +98,9 @@ export default function Forums() {
           </div>
           <div className="flex-1">
             <div className="h-full overflow-hidden rounded-lg">
-              <img
+              <Image
+                width={600}
+                height={400}
                 src="/images/image-22.png"
                 alt="Forum audience"
                 className="w-full h-full object-cover transition-transform duration-300 ease-in-out hover:scale-105"

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { useI18n } from "@/i18n/useI18n";
 
 export default function Features() {
@@ -8,9 +9,11 @@ export default function Features() {
   return (
     <section className="pt-16 font-gotham relative">
       {/* Absolute Overlay Image */}
-      <img
+      <Image
         src="/images/hand-3.png"
         alt="Overlay decoration"
+        width={400}
+        height={400}
         className="absolute top-[116px] right-[20px] lg:top-auto lg:bottom-0 lg:left-[37%] xl:left-[30%] z-40 w-[100px] h-[100px] lg:w-[300px] lg:h-[300px] xl:w-[400px] xl:h-[400px] object-contain pointer-events-none"
       />
 

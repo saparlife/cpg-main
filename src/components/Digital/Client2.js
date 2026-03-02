@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { useI18n } from "@/i18n/useI18n";
 
 export default function Client2() {
@@ -8,10 +9,11 @@ export default function Client2() {
       <div className="max-w-[1640px] px-6 lg:px-[20px] md:px-[40px] mx-auto w-full relative z-20">
         <div className="rounded-xl overflow-hidden h-[400px] lg:h-[500px] bg-black-500 relative w-full font-gotham">
           {/* Background Image */}
-          <img
+          <Image
             src="/images/image72.png"
             alt="background"
-            className="absolute inset-0 w-full h-full object-cover opacity-25 lg:opacity-100"
+            fill
+            className="object-cover opacity-25 lg:opacity-100"
           />
 
           {/* Top Left Content */}
