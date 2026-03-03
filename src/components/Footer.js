@@ -38,6 +38,7 @@ export default function Footer() {
                 href="https://www.instagram.com/cpgmediagroup"
                 className="text-white text-base sm:text-lg md:text-xl xl:text-2xl font-black uppercase font-gotham hover:text-parrot-1100"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 instagram
               </a>
@@ -47,6 +48,7 @@ export default function Footer() {
                 href="https://www.youtube.com/@cpgmediagroup"
                 className="text-white text-base sm:text-lg md:text-xl xl:text-2xl font-black uppercase font-gotham hover:text-parrot-1100"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 youtube
               </a>

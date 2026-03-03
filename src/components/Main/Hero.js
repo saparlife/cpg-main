@@ -15,31 +15,8 @@ export default function Hero({ top, bottom, imageUrl = "/images/img1.png", video
     }
   }, [isInView]);
 
-  // const [isVideoOpen, setIsVideoOpen] = useState(false);
-  // const [selectedVideo, setSelectedVideo] = useState(null);
-
-  // const handlePlayClick = (videoUrl, title) => {
-  //   setSelectedVideo({ url: videoUrl, title });
-  //   setIsVideoOpen(true);
-  // };
-
-  // const handleCloseVideo = () => {
-  //   setIsVideoOpen(false);
-  //   setSelectedVideo(null);
-  // };
-
-  // const handleButtonClick = (e, videoUrl, title) => {
-  //   e.stopPropagation();
-  //   handlePlayClick(videoUrl, title);
-  // };
   return (
     <>
-      {/* <VideoPlayer
-        isOpen={isVideoOpen}
-        onClose={handleCloseVideo}
-        videoUrl={selectedVideo?.url}
-        title={selectedVideo?.title}
-      /> */}
       <section className="pb-[66px] overflow-hidden">
         <div className="max-w-[1760px] px-5 mx-auto w-full">
           <div className="relative">
@@ -54,19 +31,6 @@ export default function Hero({ top, bottom, imageUrl = "/images/img1.png", video
               {top}
             </p>
             <div className="overflow-hidden rounded-[10px] relative z-[20]">
-              {/* <Image src={imageUrl} alt="CPG Media Company" width={1760} height={400} className="w-full h-auto" />
-            {videoUrl && (
-              <motion.button
-                onClick={(e) => handleButtonClick(e, videoUrl, "Showreel")}
-                className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 flex items-center justify-center group pointer-events-auto"
-                aria-label="Play video for Showreel"
-                whileHover={prefersReducedMotion ? {} : buttonHover}
-              >
-                <div className="flex items-center justify-center w-20 h-20 bg-parrot-1100 rounded-full transition-all duration-300">
-                  <Play fill="black" className="text-black ml-1" />
-                </div>
-              </motion.button>
-            )} */}
               {videoUrl && (
                 <video
                   ref={videoRef}

@@ -1,6 +1,36 @@
 import { NextResponse } from "next/server";
 
+// Simple in-memory rate limiter
+const rateLimit = new Map();
+const RATE_LIMIT_WINDOW = 60 * 1000; // 1 minute
+const MAX_REQUESTS = 3; // 3 requests per minute
+
+function isRateLimited(ip) {
+  const now = Date.now();
+  const entry = rateLimit.get(ip);
+
+  if (!entry || now - entry.timestamp > RATE_LIMIT_WINDOW) {
+    rateLimit.set(ip, { timestamp: now, count: 1 });
+    return false;
+  }
+
+  if (entry.count >= MAX_REQUESTS) {
+    return true;
+  }
+
+  entry.count++;
+  return false;
+}
+
 export async function POST(request) {
+  const ip = request.headers.get("x-forwarded-for") || "unknown";
+  if (isRateLimited(ip)) {
+    return NextResponse.json(
+      { success: false, error: "Слишком много запросов. Попробуйте через минуту." },
+      { status: 429 }
+    );
+  }
+
   const { name, email, service, message } = await request.json();
 
   if (!name || !email || !service || !message) {

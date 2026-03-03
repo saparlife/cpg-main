@@ -65,7 +65,7 @@ html {
 }
 .text-stroke-parrot{
     -webkit-text-stroke-width: 1.23px;
-    -webkit-text-stroke-color: #B8D433;
+    -webkit-text-stroke-color: var(--color-parrot-1100);
 }
 /* for marquee  */
 .marquee-track {
@@ -100,10 +100,6 @@ html {
   100% {
     color: rgba(255, 255, 255, 0.1);
   }
-}
-
-.animate-marquee {
-  animation: marquee 30s linear infinite;
 }
 
 .animate-color-cycle {

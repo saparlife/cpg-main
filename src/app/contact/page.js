@@ -16,6 +16,7 @@ export default function ContactPage() {
   const { t } = useI18n();
   const [loading, setLoading] = useState(false);
   const [formData, setFormData] = useState(defaultForm);
+  const [error, setError] = useState(null);
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
@@ -30,16 +31,23 @@ export default function ContactPage() {
       e.preventDefault();
       if (loading) return;
       setLoading(true);
-      await fetch("/api/contact", {
+      setError(null);
+      const res = await fetch("/api/contact", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
         body: JSON.stringify(formData),
       });
+      if (!res.ok) {
+        const data = await res.json();
+        setError(data.error || t("contact.error"));
+        return;
+      }
       alert(t("contact.thank_you"));
       setFormData(defaultForm);
-    } catch (error) {
+    } catch (err) {
+      setError(t("contact.error"));
     } finally {
       setLoading(false);
     }
@@ -175,6 +183,10 @@ export default function ContactPage() {
                     required
                   />
                 </div>
+
+                {error && (
+                  <p className="text-red-400 text-sm font-gothammedium">{error}</p>
+                )}
 
                 {/* Submit Button */}
                 <button
