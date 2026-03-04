@@ -1,0 +1,146 @@
+{
+  "slug": "new-digital",
+  "metadata": {
+    "title": "Digital Marketing — CPG Media Group",
+    "description": "Полный цикл digital-маркетинга: SMM, таргет, SEO, PR-продвижение и управление репутацией."
+  },
+  "sections": [
+    {
+      "type": "marquee-header",
+      "props": { "text": "DIGITAL [3]" }
+    },
+    {
+      "type": "hero",
+      "props": {
+        "top": "t:Digital.Hero.top",
+        "bottom": "t:Digital.Hero.bottom",
+        "imageUrl": "/images/img1.png",
+        "videoUrl": "/videos/cpg_15sec_eng.webm"
+      }
+    },
+    {
+      "type": "text-block",
+      "props": {
+        "lines": [
+          { "text": "t:Digital.About.title_main", "size": "xl", "color": "accent" },
+          { "text": "t:Digital.About.title_secondary", "size": "lg" },
+          { "text": "t:Digital.About.title_tertiary", "size": "xl" },
+          { "text": "t:Digital.About.title_quaternary", "size": "xl", "color": "accent" },
+          { "text": "t:Digital.About.tagline", "size": "md" }
+        ]
+      }
+    },
+    {
+      "type": "split",
+      "props": {
+        "ratio": "50/50",
+        "left": {
+          "type": "text",
+          "lines": [
+            { "text": "t:Digital.Experience.years", "size": "xl", "color": "accent" },
+            { "text": "t:Digital.Experience.in_digital", "size": "xl" }
+          ]
+        },
+        "right": {
+          "type": "text",
+          "lines": [
+            { "text": "t:Digital.Experience.tagline", "size": "lg" },
+            { "text": "t:Digital.Experience.tagline_alt", "size": "lg", "color": "accent" }
+          ]
+        }
+      }
+    },
+    {
+      "type": "split",
+      "props": {
+        "ratio": "40/60",
+        "left": {
+          "type": "text",
+          "lines": [
+            { "text": "t:Digital.Provision.our", "size": "xl" },
+            { "text": "t:Digital.Provision.offer", "size": "xl", "color": "accent" }
+          ]
+        },
+        "right": {
+          "type": "text",
+          "lines": [
+            { "text": "t:Digital.Provision.description", "size": "md" },
+            { "text": "t:Digital.Provision.social_note", "size": "lg", "color": "accent" }
+          ]
+        }
+      }
+    },
+    {
+      "type": "feature-list",
+      "props": {
+        "title": "t:Digital.Advantages.title",
+        "subtitle": "t:Digital.Advantages.subtitle",
+        "items": "t:Digital.Advantages.list",
+        "backgroundImage": "/images/shape7.svg"
+      }
+    },
+    {
+      "type": "client-case",
+      "props": {
+        "title": "t:Digital.Client1.name",
+        "description": ["t:Digital.Client1.tagline", "t:Digital.Client1.description"],
+        "layout": "30/70",
+        "images": [
+          "/images/image29.png",
+          "/images/image30.png",
+          "/images/image31.png"
+        ],
+        "metrics": [
+          { "value": "t:Digital.Client1.value1", "label": "t:Digital.Client1.investment" },
+          { "value": "t:Digital.Client1.value2", "label": "t:Digital.Client1.attracted" },
+          { "value": "t:Digital.Client1.value3", "label": "t:Digital.Client1.roi" }
+        ]
+      }
+    },
+    {
+      "type": "client-case",
+      "props": {
+        "title": "t:Digital.Client2.name",
+        "description": ["t:Digital.Client2.tagline", "t:Digital.Client2.message"],
+        "layout": "30/70",
+        "images": [
+          "/images/image32.png",
+          "/images/image33.png",
+          "/images/image34.png"
+        ]
+      }
+    },
+    {
+      "type": "text-block",
+      "props": {
+        "backgroundImage": "/images/shape6.svg",
+        "lines": [
+          { "text": "t:Digital.WhyUs.title", "size": "xl", "color": "accent" },
+          { "text": "t:Digital.WhyUs.subtitle", "size": "lg" },
+          { "text": "t:Digital.WhyUs.tagline", "size": "md" }
+        ]
+      }
+    },
+    {
+      "type": "stats",
+      "props": {
+        "items": [
+          { "number": "t:Digital.WhyUs.metric1_value", "title": "t:Digital.WhyUs.metric1_label" },
+          { "number": "t:Digital.WhyUs.metric2_value", "title": "t:Digital.WhyUs.metric2_label" }
+        ]
+      }
+    },
+    {
+      "type": "cta",
+      "props": {
+        "lines": [
+          { "text": "t:Main.cta.lets", "size": "xl", "color": "accent" },
+          { "text": "t:Main.cta.create", "size": "2xl" },
+          { "text": "t:Main.cta.together", "color": "muted" }
+        ],
+        "buttonText": "t:Main.cta.button",
+        "buttonHref": "/contact"
+      }
+    }
+  ]
+}

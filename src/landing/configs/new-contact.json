@@ -1,0 +1,17 @@
+{
+  "slug": "new-contact",
+  "metadata": {
+    "title": "Контакты — CPG Media Group",
+    "description": "Свяжитесь с нами для обсуждения вашего проекта. Организация мероприятий, digital-маркетинг, контент-продакшн."
+  },
+  "sections": [
+    {
+      "type": "marquee-header",
+      "props": { "text": "CONTACT US" }
+    },
+    {
+      "type": "contact-form",
+      "props": {}
+    }
+  ]
+}

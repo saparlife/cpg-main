@@ -1,0 +1,169 @@
+{
+  "slug": "new-content",
+  "metadata": {
+    "title": "Контент-продакшн — CPG Media Group",
+    "description": "Рекламные ролики, документальные фильмы, анимация, музыкальные клипы и фото/видео сопровождение мероприятий."
+  },
+  "sections": [
+    {
+      "type": "marquee-header",
+      "props": { "text": "CONTENT [3]" }
+    },
+    {
+      "type": "hero",
+      "props": {
+        "top": "t:Content.Hero.top",
+        "bottom": "t:Content.Hero.bottom",
+        "imageUrl": "/images/img3.png",
+        "videoUrl": "/videos/2_1.webm"
+      }
+    },
+    {
+      "type": "text-block",
+      "props": {
+        "lines": [
+          { "text": "t:Content.About.title_main", "size": "xl" },
+          { "text": "t:Content.About.title_main_action", "size": "xl", "color": "accent" },
+          { "text": "t:Content.About.title_main_noun", "size": "xl" },
+          { "text": "t:Content.About.tagline", "size": "lg", "color": "accent" }
+        ]
+      }
+    },
+    {
+      "type": "split",
+      "props": {
+        "ratio": "40/60",
+        "left": {
+          "type": "text",
+          "lines": [
+            { "text": "t:Content.About.who_title", "size": "xl", "color": "accent" }
+          ]
+        },
+        "right": {
+          "type": "text",
+          "lines": [
+            { "text": "t:Content.About.who_description", "size": "md" },
+            { "text": "t:Content.About.ideas", "size": "md" },
+            { "text": "t:Content.About.meaning", "size": "md" },
+            { "text": "t:Content.About.beauty", "size": "md", "color": "accent" }
+          ]
+        }
+      }
+    },
+    {
+      "type": "feature-list",
+      "props": {
+        "title": "t:Content.Service.what",
+        "subtitle": "t:Content.Service.title",
+        "items": "t:Content.Service.list",
+        "backgroundImage": "/images/shape7.svg"
+      }
+    },
+    {
+      "type": "image-grid",
+      "props": {
+        "columns": 3,
+        "items": [
+          {
+            "type": "image",
+            "src": "/images/image-9.png",
+            "height": "400px",
+            "overlay": [
+              { "text": "t:Content.Clips.music_title", "color": "accent" }
+            ]
+          },
+          {
+            "type": "image",
+            "src": "/images/image-10.png",
+            "height": "400px"
+          },
+          {
+            "type": "image",
+            "src": "/images/image-11.png",
+            "height": "400px",
+            "overlay": [
+              { "text": "t:Content.Clips.tagline", "color": "accent" }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "split",
+      "props": {
+        "ratio": "50/50",
+        "left": {
+          "type": "text",
+          "lines": [
+            { "text": "t:Content.Documentary.title", "size": "xl", "color": "accent" }
+          ]
+        },
+        "right": {
+          "type": "text",
+          "lines": [
+            { "text": "t:Content.Documentary.note", "size": "md" },
+            { "text": "t:Content.Documentary.tagline", "size": "lg", "color": "accent" }
+          ]
+        }
+      }
+    },
+    {
+      "type": "split",
+      "props": {
+        "ratio": "40/60",
+        "left": {
+          "type": "text",
+          "lines": [
+            { "text": "t:Content.Advertisement.title", "size": "xl" }
+          ]
+        },
+        "right": {
+          "type": "text",
+          "lines": [
+            { "text": "t:Content.Advertisement.description_1", "size": "md" },
+            { "text": "t:Content.Advertisement.description_2", "size": "md" },
+            { "text": "t:Content.Advertisement.description_3", "size": "md", "color": "accent" }
+          ]
+        }
+      }
+    },
+    {
+      "type": "text-block",
+      "props": {
+        "backgroundImage": "/images/shape6.svg",
+        "lines": [
+          { "text": "t:Content.Approach.title", "size": "xl" },
+          { "text": "t:Content.Approach.subtitle", "size": "xl", "color": "accent" },
+          { "text": "t:Content.Approach.description_1", "size": "md" },
+          { "text": "t:Content.Approach.description_2", "size": "md" },
+          { "text": "t:Content.Approach.description_3", "size": "lg", "color": "accent" }
+        ]
+      }
+    },
+    {
+      "type": "text-block",
+      "props": {
+        "lines": [
+          { "text": "t:Content.WhyUs.title", "size": "xl", "color": "accent" },
+          { "text": "t:Content.WhyUs.subtitle", "size": "lg" },
+          { "text": "t:Content.WhyUs.description_1", "size": "md" },
+          { "text": "t:Content.WhyUs.description_2", "size": "md" },
+          { "text": "t:Content.WhyUs.description_3", "size": "md" },
+          { "text": "t:Content.WhyUs.description_4", "size": "lg", "color": "accent" }
+        ]
+      }
+    },
+    {
+      "type": "cta",
+      "props": {
+        "lines": [
+          { "text": "t:Main.cta.lets", "size": "xl", "color": "accent" },
+          { "text": "t:Main.cta.create", "size": "2xl" },
+          { "text": "t:Main.cta.together", "color": "muted" }
+        ],
+        "buttonText": "t:Main.cta.button",
+        "buttonHref": "/contact"
+      }
+    }
+  ]
+}

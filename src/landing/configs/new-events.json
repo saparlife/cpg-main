@@ -1,0 +1,165 @@
+{
+  "slug": "new-events",
+  "metadata": {
+    "title": "Организация мероприятий — CPG Media Group",
+    "description": "Корпоративные мероприятия, форумы, фестивали и концерты. Полный цикл организации событий любого формата и масштаба."
+  },
+  "sections": [
+    {
+      "type": "marquee-header",
+      "props": { "text": "EVENT [1]" }
+    },
+    {
+      "type": "hero",
+      "props": {
+        "top": "t:Events.Hero.top",
+        "bottom": "t:Events.Hero.bottom",
+        "imageUrl": "/images/img2.png",
+        "videoUrl": "/videos/events_1.webm"
+      }
+    },
+    {
+      "type": "image-grid",
+      "props": {
+        "columns": 3,
+        "items": [
+          {
+            "type": "image",
+            "src": "/images/image-15.png",
+            "span": "full",
+            "height": "350px",
+            "overlay": [
+              { "text": "t:Events.About.title_part1" },
+              { "text": "t:Events.About.title_part2", "color": "accent" },
+              { "text": "t:Events.About.title_part3", "color": "accent" }
+            ]
+          },
+          {
+            "type": "image",
+            "src": "/images/image-16.png",
+            "span": 2,
+            "height": "350px",
+            "overlay": [
+              { "text": "t:Events.About.years", "color": "accent" },
+              { "text": "t:Events.About.years_description" },
+              { "text": "t:Events.About.years_description_part2" }
+            ]
+          },
+          {
+            "type": "image",
+            "src": "/images/image-17.png",
+            "height": "350px",
+            "overlayPosition": "bottom",
+            "overlayColor": "accent",
+            "overlay": [
+              { "text": "t:Events.About.events_description", "color": "accent" }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "split",
+      "props": {
+        "ratio": "60/40",
+        "decorationImage": "/images/hand-3.png",
+        "left": {
+          "type": "text",
+          "lines": [
+            { "text": "t:Events.Features.title_what", "size": "xl" },
+            { "text": "t:Events.Features.title_can", "size": "2xl", "color": "accent" }
+          ],
+          "description": "t:Events.Features.description_part1"
+        },
+        "right": {
+          "type": "feature-list",
+          "items": "t:Events.Features.items",
+          "backgroundImage": "/images/shape7.svg"
+        }
+      }
+    },
+    {
+      "type": "client-case",
+      "props": {
+        "title": "t:Events.Client1.title",
+        "year": "t:Events.Client1.year",
+        "subtitle": [
+          "t:Events.Client1.subtitle",
+          "t:Events.Client1.subtitle_part2",
+          "t:Events.Client1.subtitle_part3"
+        ],
+        "description": [
+          "t:Events.Client1.description",
+          "t:Events.Client1.description_part2",
+          "t:Events.Client1.description_part3"
+        ],
+        "decorationImage": "/images/shape12.svg",
+        "layout": "30/70",
+        "images": [
+          "/images/image41.png",
+          "/images/image42.png",
+          "/images/image43.png",
+          "/images/image44.png",
+          "/images/image45.png",
+          "/images/image46.png"
+        ]
+      }
+    },
+    {
+      "type": "client-case",
+      "props": {
+        "title": "t:Events.Client2.title",
+        "year": "t:Events.Client2.year",
+        "subtitle": ["t:Events.Client2.subtitle"],
+        "description": ["t:Events.Client2.description"],
+        "layout": "30/70",
+        "images": [
+          "/images/image47.png",
+          "/images/image48.png",
+          "/images/image49.png",
+          "/images/image50.png",
+          "/images/image51.png",
+          "/images/image52.png"
+        ]
+      }
+    },
+    {
+      "type": "stats",
+      "props": {
+        "heading": "t:Events.Trust.heading",
+        "headingAccent": "t:Events.Trust.heading_part2",
+        "centerImage": "/images/image63.png",
+        "items": [
+          { "number": "t:Events.Trust.block1_number", "title": "t:Events.Trust.block1_text" },
+          { "number": "t:Events.Trust.block2_number", "title": "t:Events.Trust.block2_text" },
+          { "number": "t:Events.Trust.block3_number", "title": "t:Events.Trust.block3_text" },
+          { "number": "t:Events.Trust.block4_number", "title": "t:Events.Trust.block4_text" }
+        ]
+      }
+    },
+    {
+      "type": "text-block",
+      "props": {
+        "backgroundImage": "/images/shape6.svg",
+        "sideImage": "/images/image64.png",
+        "lines": [
+          { "text": "t:Events.WhyUs.title", "size": "xl", "color": "accent" },
+          { "text": "t:Events.WhyUs.subtitle\nt:Events.WhyUs.subtitle_part2", "size": "lg" },
+          { "text": "t:Events.WhyUs.description_part1\n\nt:Events.WhyUs.description_part2", "size": "md" }
+        ]
+      }
+    },
+    {
+      "type": "cta",
+      "props": {
+        "lines": [
+          { "text": "t:Main.cta.lets", "size": "xl", "color": "accent" },
+          { "text": "t:Main.cta.create", "size": "2xl" },
+          { "text": "t:Main.cta.together", "color": "muted" }
+        ],
+        "buttonText": "t:Main.cta.button",
+        "buttonHref": "/contact"
+      }
+    }
+  ]
+}
